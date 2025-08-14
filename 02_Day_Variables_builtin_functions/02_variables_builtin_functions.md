@@ -1,22 +1,26 @@
 <div align="center">
-  <h1> 30 Days Of Python: Day 2 - Variables, Builtin Functions</h1>
-  <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/asabeneh/">
+  <h1> Pythonic Odyssey: Day 2 - Variables, Builtin Functions</h1>
+  <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/satyajit-ghosh-dev/">
   <img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social">
   </a>
-  <a class="header-badge" target="_blank" href="https://twitter.com/Asabeneh">
-  <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/asabeneh?style=social">
-  </a>
+  <!-- <a class="header-badge" target="_blank" href="https://twitter.com/Satyajit">
+  <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/Satyajit?style=social">
+  </a> -->
+<a class="header-badge" target="_blank" href="https://www.facebook.com/Urte4u/">
+  <img alt="Facebook Follow" src="https://img.shields.io/badge/Follow-%40Urte4u-1877F2?style=social&logo=facebook">
+</a>
 
-<sub>Author:
-<a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
-<small> Second Edition: July, 2021</small>
+<sub>by:
+<a href="https://www.linkedin.com/in/satyajit-ghosh-dev/" target="_blank">Satyajit Ghosh</a><br>
+
 </sub>
 
 </div>
 
-[<< Day 1](../readme.md) | [Day 3 >>](../03_Day_Operators/03_operators.md)
+[<< Day 1](../readme.md) 
+<!-- [<< Day 1](../readme.md) | [Day 3 >>](../03_Day_Operators/03_operators.md) -->
 
-![30DaysOfPython](../images/30DaysOfPython_banner3@2x.png)
+![Pythonic Odyssey](../images/30DaysOfPython_banner3@2x.png)
 
 - [📘 Day 2](#-day-2)
   - [Built in functions](#built-in-functions)
@@ -101,18 +105,18 @@ _Example:_
 
 ```py
 # Variables in Python
-first_name = 'Asabeneh'
-last_name = 'Yetayeh'
-country = 'Finland'
-city = 'Helsinki'
+first_name = 'Satyajit'
+last_name = 'Ghosh'
+country = 'Bangladesh'
+city = 'Chattogram'
 age = 250
 is_married = True
 skills = ['HTML', 'CSS', 'JS', 'React', 'Python']
 person_info = {
-   'firstname':'Asabeneh',
-   'lastname':'Yetayeh',
-   'country':'Finland',
-   'city':'Helsinki'
+   'firstname':'Satyajit',
+   'lastname':'Ghosh',
+   'country':'Bangladesh',
+   'city':'Chattogram'
    }
 ```
 
@@ -152,7 +156,7 @@ Multiple variables can also be declared in one line:
 **Example:**
 
 ```py
-first_name, last_name, country, age, is_married = 'Asabeneh', 'Yetayeh', 'Helsink', 250, True
+first_name, last_name, country, age, is_married = 'Satyajit', 'Ghosh', 'Chattogram', 250, True
 
 print(first_name, last_name, country, age, is_married)
 print('First name:', first_name)
@@ -186,21 +190,21 @@ There are several data types in Python. To identify the data type we use the _ty
 # Different python data types
 # Let's declare variables with various data types
 
-first_name = 'Asabeneh'     # str
-last_name = 'Yetayeh'       # str
-country = 'Finland'         # str
-city= 'Helsinki'            # str
+first_name = 'Satyajit'     # str
+last_name = 'Ghosh'       # str
+country = 'Bangladesh'         # str
+city= 'Chattogram'            # str
 age = 250                   # int, it is not my real age, don't worry about it
 
 # Printing out types
-print(type('Asabeneh'))          # str
+print(type('Satyajit'))          # str
 print(type(first_name))          # str
 print(type(10))                  # int
 print(type(3.14))                # float
 print(type(1 + 1j))              # complex
 print(type(True))                # bool
 print(type([1, 2, 3, 4]))        # list
-print(type({'name':'Asabeneh'})) # dict
+print(type({'name':'Satyajit'})) # dict
 print(type((1,2)))               # tuple
 print(type(zip([1,2],[3,4])))    # zip
 ```
@@ -235,8 +239,8 @@ num_int = int(num_float)
 print('num_int', int(num_int))      # 10
 
 # str to list
-first_name = 'Asabeneh'
-print(first_name)               # 'Asabeneh'
+first_name = 'Satyajit'
+print(first_name)               # 'Satyajit'
 first_name_to_list = list(first_name)
 print(first_name_to_list)            # ['A', 's', 'a', 'b', 'e', 'n', 'e', 'h']
 ```
@@ -257,7 +261,7 @@ Number data types in Python:
    Example:
    1 + j, 2 + 4j, 1 - 1j
 
-🌕 You are awesome. You have just completed day 2 challenges and you are two steps ahead on your way to greatness. Now do some exercises for your brain and muscles.
+ Now do some exercises for brain and muscles.
 
 ## 💻 Exercises - Day 2
 
@@ -297,6 +301,7 @@ Number data types in Python:
 1. Use the built-in input function to get first name, last name, country and age from a user and store the value to their corresponding variable names
 1. Run help('keywords') in Python shell or in your file to check for the Python reserved words or keywords
 
-🎉 CONGRATULATIONS ! 🎉
 
-[<< Day 1](../readme.md) | [Day 3 >>](../03_Day_Operators/03_operators.md)
+
+[<< Day 1](../readme.md) 
+<!-- [<< Day 1](../readme.md) | [Day 3 >>](../03_Day_Operators/03_operators.md) -->
