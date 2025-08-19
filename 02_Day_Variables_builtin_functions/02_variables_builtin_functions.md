@@ -11,7 +11,7 @@
 </a>
 
 <sub>by:
-<a href="https://www.linkedin.com/in/satyajit-ghosh-dev/" target="_blank">Satyajit Ghosh</a><br>
+<a href="https://codewithsatyajit.netlify.app/" target="_blank">Satyajit Ghosh</a><br>
 
 </sub>
 
